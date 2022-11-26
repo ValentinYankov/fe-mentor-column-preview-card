@@ -1,0 +1,24 @@
+@use "../01-helpers" as h;
+
+.vechiles {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.automobiles {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  h2 {
+    text-transform: uppercase;
+  }
+
+  p {
+    text-align: left;
+  }
+
+  .button {
+    align-self: flex-start;
+  }
+}

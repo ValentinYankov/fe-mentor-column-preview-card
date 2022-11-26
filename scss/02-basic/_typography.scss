@@ -1,0 +1,28 @@
+@use "../01-helpers/" as h;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: h.$ff-700;
+  font-weight: 700;
+  color: h.$clr-se-200;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+p,
+a {
+  font-family: h.$ff-400;
+  font-weight: 400;
+  color: h.$clr-se-100;
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+}

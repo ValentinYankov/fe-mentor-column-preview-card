@@ -1,0 +1,5 @@
+@use "../01-helpers" as h;
+
+body {
+  background-color: h.$clr-se-200;
+}

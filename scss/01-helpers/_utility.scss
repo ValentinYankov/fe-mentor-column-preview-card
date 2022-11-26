@@ -1,0 +1,14 @@
+@use "variables" as v;
+// color classes
+
+.bg-clr-100 {
+  background-color: v.$clr-pr-100;
+}
+
+.bg-clr-200 {
+  background-color: v.$clr-pr-200;
+}
+
+.bg-clr-300 {
+  background-color: v.$clr-pr-300;
+}

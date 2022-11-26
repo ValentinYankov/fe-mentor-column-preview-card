@@ -1,0 +1,187 @@
+.bg-clr-100 {
+  background-color: hsl(31deg, 77%, 52%);
+}
+
+.bg-clr-200 {
+  background-color: hsl(184deg, 100%, 22%);
+}
+
+.bg-clr-300 {
+  background-color: hsl(179deg, 100%, 13%);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+  color: hsl(0deg, 0%, 95%);
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+p,
+a {
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: 400;
+  color: hsla(0deg, 0%, 100%, 0.75);
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: hsl(0deg, 0%, 95%);
+}
+
+/*
+  Josh's Custom CSS Reset
+  https://www.joshwcomeau.com/css/custom-css-reset/
+*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+.container {
+  margin: 0 auto;
+  width: min(1110px, 100% - 2rem);
+}
+
+.wrapper {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-block: 2rem;
+}
+@media (min-width: 1024px) {
+  .wrapper {
+    margin-block: 0;
+  }
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+@media (min-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 1024px) {
+  .grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+.vechiles {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.automobiles {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.automobiles h2 {
+  text-transform: uppercase;
+}
+.automobiles p {
+  text-align: left;
+}
+.automobiles .button {
+  align-self: flex-start;
+}
+
+.button {
+  cursor: pointer;
+  background-color: hsl(0deg, 0%, 95%);
+  padding: 0.9rem 2.1rem;
+  border-radius: 100vmax;
+  border: solid 1px hsl(0deg, 0%, 95%);
+  box-shadow: rgba(99, 99, 99, 0.2) 1px 2px 8px 0px;
+  outline: green 2px;
+  transition: all 0.5s ease;
+}
+
+.button--primary-100 {
+  color: hsl(31deg, 77%, 52%);
+}
+.button--primary-100:hover {
+  background-color: hsl(31deg, 77%, 52%);
+  color: hsl(0deg, 0%, 95%);
+}
+
+.button--primary-200 {
+  color: hsl(184deg, 100%, 22%);
+}
+.button--primary-200:hover {
+  background-color: hsl(184deg, 100%, 22%);
+  color: hsl(0deg, 0%, 95%);
+}
+
+.button--primary-300 {
+  color: hsl(179deg, 100%, 13%);
+}
+.button--primary-300:hover {
+  background-color: hsl(179deg, 100%, 13%);
+  color: hsl(0deg, 0%, 95%);
+}/*# sourceMappingURL=style.css.map */
